@@ -12,3 +12,6 @@ E:\VS-C#\WPFStart\obj\Debug\WPFStart.csproj.GenerateResource.cache
 E:\VS-C#\WPFStart\obj\Debug\WPFStart.csproj.CoreCompileInputs.cache
 E:\VS-C#\WPFStart\obj\Debug\WPFStart.exe
 E:\VS-C#\WPFStart\obj\Debug\WPFStart.pdb
+E:\VS-C#\WPFStart\obj\Debug\WPFStart.csprojAssemblyReference.cache
+E:\VS-C#\WPFStart\obj\Debug\AboutWindow.g.cs
+E:\VS-C#\WPFStart\obj\Debug\AboutWindow.baml

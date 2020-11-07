@@ -8,18 +8,27 @@
         KeyDown="Window_KeyDown"
         PreviewKeyDown="Window_PreviewKeyDown"
         Title="MainWindow" Height="350" Width="525" >
-    <Grid KeyDown="Grid_KeyDown" PreviewKeyDown="Grid_PreviewKeyDown">
-        <Button Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="221,115,0,0"/>
-        <Button x:Name="rotatedButton" Content="2nd Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="323,252,0,0" Height="22" FontWeight="Bold" RenderTransformOrigin="0.5,0.5" KeyDown="rotatedButton_KeyDown" PreviewKeyDown="rotatedButton_PreviewKeyDown">
+    <Grid KeyDown="Grid_KeyDown" PreviewKeyDown="Grid_PreviewKeyDown" Margin="7,0,-6.6,-0.2">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="109*"></RowDefinition>
+            <RowDefinition Height="210*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="191*">
+            </ColumnDefinition>
+            <ColumnDefinition Width="326*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="27,4,0,0" Grid.Column="0" Grid.Row="0"/>
+        <Button x:Name="rotatedButton" Content="2nd Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Height="22" FontWeight="Bold" RenderTransformOrigin="0.5,0.5" Grid.Column="1" Grid.Row="1" KeyDown="rotatedButton_KeyDown" PreviewKeyDown="rotatedButton_PreviewKeyDown">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
                     <SkewTransform/>
-                    <RotateTransform Angle="-32.744"/>
+                    <RotateTransform Angle="-23.896"/>
                     <TranslateTransform/>
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-
+        <GridSplitter Grid.RowSpan="2" Width="3" BorderThickness="2" BorderBrush="Black"></GridSplitter>
     </Grid>
 </Window>

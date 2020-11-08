@@ -16,5 +16,6 @@ E:\VS-C#\WPFStart\obj\Debug\AboutWindow.g.cs
 E:\VS-C#\WPFStart\obj\Debug\AboutWindow.baml
 E:\VS-C#\WPFStart\obj\Debug\Options.g.cs
 E:\VS-C#\WPFStart\obj\Debug\Options.baml
-E:\VS-C#\WPFStart\obj\Debug\WPFStart.csprojAssemblyReference.cache
 E:\VS-C#\WPFStart\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\VS-C#\WPFStart\obj\Debug\StartGameWindow.g.cs
+E:\VS-C#\WPFStart\obj\Debug\StartGameWindow.baml

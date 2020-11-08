@@ -4,11 +4,11 @@
 winexe
 C#
 .cs
-E:\VS-C#\WPFStart\obj\Debug\
+E:\VS-C#\WPFStart\obj\Release\
 WPFStart
 none
 false
-DEBUG;TRACE
+TRACE
 E:\VS-C#\WPFStart\App.xaml
 4368966543
 

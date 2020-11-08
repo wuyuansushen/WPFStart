@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <GameOptions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <SelectedPlayers>
-    <string>GKD</string>
+    <string>ok?</string>
   </SelectedPlayers>
   <PlayerNames>
-    <string>GKD</string>
-    <string>Hello</string>
+    <string>hello</string>
+    <string>ok?</string>
   </PlayerNames>
   <NumberOfPlayers>2</NumberOfPlayers>
   <PlayAgainstComputer>true</PlayAgainstComputer>
